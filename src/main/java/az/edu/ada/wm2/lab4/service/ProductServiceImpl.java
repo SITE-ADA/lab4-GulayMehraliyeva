@@ -15,7 +15,6 @@ public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository productRepository;
 
-    // Constructor injection (recommended)
     public ProductServiceImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
